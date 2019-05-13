@@ -1,0 +1,59 @@
+---
+layout: post
+title: Homework 6
+subtitle: Regular Expressions
+tags: [homework, digital humanities, regex, python]
+comments: true
+---
+
+# Codecademy’s *Learn Python*
+
+![Unit 3](/img/2019-05-04-Python-U3.png)
+![Unit 4](/img/2019-05-04-Python-U4.png)
+![Unit 5](/img/2019-05-04-Python-U5.png)
+![Unit 6](/img/2019-05-04-Python-U6.png)
+
+
+# Regular Expression 
+
+## Part 1
+
+Answer 1:
+
+``` regular-expression 
+e?at\w*
+```
+
+Answer 2: 
+
+``` regular-expression
+M[ao][a-z']+[ra]\s([AaEe]l[\s-])*[GKh]+a(d[dh]*|zz)af+[iy]
+```
+
+**Note:** There was an error exercise 2: Moamar AI Kadafi ->  Moamar Al Kadafi
+
+Answer 3: 
+
+``` regular-expression
+.{3,4}[a\W]h[\w\W]n
+```
+
+## Part 2
+
+Answer 1: 
+
+``` regular-expression
+\t(A\w+), (L\w+)\n -> \2 \1
+```
+
+Answer 2: 
+
+``` regular-expression
+[A-Za-zäÄöÖüÜß]+([\s-][A-Za-zäÄöÖüÜß]+)*
+```
+
+Answer 3: 
+
+``` regular-expression
+[A-Za-zäÄöÖüÜß]+([\s-][A-Za-zäÄöÖüÜß]+)*(?=\s\(Lower Austria\)|\s\(Salzburg\))
+```
